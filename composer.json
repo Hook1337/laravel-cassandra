@@ -1,5 +1,5 @@
 {
-    "name": "dsturrock/cassandra",
+    "name": "hook1337/cassandra",
     "description": "Cassandra Eloquent model and Query builder for Laravel",
     "keywords": ["laravel","eloquent","cassandra","database","model"],
     "homepage": "https://github.com/dsturrock/laravel-cassandra",
@@ -17,14 +17,17 @@
         },
         {
             "name": "David Sturrock"
-        }
+        },
+	{
+	    "name": "Thomas Krog"
+	}
     ],
     "license" : "MIT",
     "require": {
-        "illuminate/support": "5.1.*",
-        "illuminate/container": "5.1.*",
-        "illuminate/database": "5.1.*",
-        "illuminate/events": "5.1.*"
+        "illuminate/support": "5.5.*",
+        "illuminate/container": "5.5.*",
+        "illuminate/database": "5.5.*",
+        "illuminate/events": "5.5.*"
     },
     "require-dev": {
 
@@ -34,12 +37,5 @@
             "dsturrock\\Cassandra": "src/",
             "dsturrock\\Eloquent": "src/"
         }
-    },
-    "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php",
-            "tests/models",
-            "tests/seeds"
-        ]
     }
 }
